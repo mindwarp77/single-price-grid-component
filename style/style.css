@@ -1,0 +1,178 @@
+.container .top p, .container .bottom .bottom-left p:first-of-type span, .container .bottom .bottom-left p:last-of-type, .container .bottom .bottom-right ul {
+  font-family: Karla, sans-serif;
+  font-weight: 400;
+}
+
+.container p:first-of-type, .container .bottom-left h3, .container .bottom-right h3, .container .top h2, .container .bottom .bottom-left button {
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  background: #e5eff5;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    height: auto;
+  }
+}
+
+.container {
+  width: 40%;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.container .top, .container .bottom-left, .container .bottom-right {
+  padding: 45px 45px;
+}
+
+.container p:first-of-type, .container .bottom-left h3, .container .bottom-right h3 {
+  font-size: 1.2rem;
+}
+
+.container p {
+  letter-spacing: .5px;
+}
+
+.container .top {
+  width: 100%;
+  height: 30%;
+  text-align: left;
+  background: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container .top h2 {
+  font-size: 1.4rem;
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+
+.container .top p:first-of-type {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+
+.container .top p {
+  font-size: 1rem;
+  color: #98a6bd;
+  line-height: 1.4em;
+}
+
+.container .bottom {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@media screen and (max-width: 768px) {
+  .container .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.container .bottom .bottom-left, .container .bottom .bottom-right {
+  color: white;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .container .bottom .bottom-left, .container .bottom .bottom-right {
+    width: 100%;
+  }
+}
+
+.container .bottom .bottom-left {
+  background: #2ba6a4;
+  border-bottom-left-radius: 10px;
+}
+
+.container .bottom .bottom-left h3 {
+  margin-bottom: 20px;
+}
+
+.container .bottom .bottom-left p:first-of-type {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.container .bottom .bottom-left p:first-of-type span {
+  font-size: 0.9rem;
+  color: #e5eff5;
+}
+
+.container .bottom .bottom-left p:last-of-type {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.container .bottom .bottom-left button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background: #c0df34;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.container .bottom .bottom-left button:hover {
+  background: #cef32b;
+}
+
+.container .bottom .bottom-right {
+  background: #2ab2af;
+  border-bottom-right-radius: 10px;
+}
+
+.container .bottom .bottom-right h3 {
+  margin-bottom: 10px;
+}
+
+.container .bottom .bottom-right ul {
+  list-style: none;
+  font-size: 0.9rem;
+  line-height: 1.6em;
+  color: #e5eff5;
+}
+/*# sourceMappingURL=style.css.map */
